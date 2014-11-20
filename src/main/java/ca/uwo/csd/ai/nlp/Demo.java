@@ -1,3 +1,4 @@
+package ca.uwo.csd.ai.nlp;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -9,7 +10,7 @@ import ca.uwo.csd.ai.nlp.libsvm.ex.SVMPredictor;
 import ca.uwo.csd.ai.nlp.libsvm.ex.SVMTrainer;
 import ca.uwo.csd.ai.nlp.libsvm.svm_model;
 import ca.uwo.csd.ai.nlp.libsvm.svm_parameter;
-import utils.DataFileReader;
+import ca.uwo.csd.ai.nlp.utils.DataFileReader;
 
 /**
  * Demonstration of sample usage
@@ -58,7 +59,7 @@ public class Demo {
     }
     
     private static void showUsage() {
-        System.out.println("Demo training-file testing-file output-file");
+        System.out.println("ca.uwo.csd.ai.nlp.Demo training-file testing-file output-file");
     }
     
     private static boolean checkArgument(String[] args) {

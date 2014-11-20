@@ -4,8 +4,8 @@
 #that produced by the original tool
 
 #generate output
-#note that the Demo uses the linear kernel
-java -cp dist/libsvm-java.jar Demo a1a.train a1a.test a1a.out
+#note that the ca.uwo.csd.ai.nlp.Demo uses the linear kernel
+java -cp dist/libsvm-java.jar ca.uwo.csd.ai.nlp.Demo a1a.train a1a.test a1a.out
 
 #download libsvm
 wget http://www.csie.ntu.edu.tw/~cjlin/cgi-bin/libsvm.cgi?+http://www.csie.ntu.edu.tw/~cjlin/libsvm+tar.gz

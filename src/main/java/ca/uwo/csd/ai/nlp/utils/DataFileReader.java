@@ -1,4 +1,4 @@
-package utils;
+package ca.uwo.csd.ai.nlp.utils;
 
 import ca.uwo.csd.ai.nlp.common.SparseVector;
 import java.io.BufferedReader;
