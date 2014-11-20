@@ -16,6 +16,10 @@ KernelManager.setCustomKernel(new CustomKernel() {
         });
 
 
+run:
+mvn clean package
+mvn exec:java
+
 Syeed Ibn Faiz
 University of Western Ontario
 syeedibnfaiz@gmail.com
